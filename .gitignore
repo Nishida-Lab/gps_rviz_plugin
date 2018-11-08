@@ -1,2 +1,3 @@
 *.pyc
 data/map.png
+config/google_static_map_api_key.yaml
