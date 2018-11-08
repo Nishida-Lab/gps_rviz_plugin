@@ -181,7 +181,7 @@ class RosNMEADriver(object):
 
     @staticmethod
     def get_frame_id():
-        frame_id = rospy.get_param('~frame_id', 'gps')
+        frame_id = rospy.get_param('~frame_id', 'ublox_m8p_link')
         if frame_id[0] != "/":
             """Add the TF prefix"""
             prefix = ""
