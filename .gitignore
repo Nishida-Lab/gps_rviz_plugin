@@ -1,4 +1,2 @@
 *.pyc
-data/*
-config/google_static_map_api_key.yaml
-config/gps_rviz_plugin.rviz
+data/map.png
